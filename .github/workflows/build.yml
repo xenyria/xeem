@@ -44,4 +44,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: build/libs/XenyriaExperienceEnhancementMod-+([0-9]).+([0-9]).+([0-9a-zA-Z]).jar
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           draft: true
