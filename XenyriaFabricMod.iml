@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+      <excludeFolder url="file://$MODULE_DIR$/.idea"/>
+      <excludeFolder url="file://$MODULE_DIR$/out"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/41442a550d78cb59a601c1d38603f6ab5497f93c/annotations-23.0.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/ca5088d615accaabd2aa956b10b236a4e75cfccb/annotations-23.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.m2/repository/xenyria/mod/XenyriaExperienceEnhancementModBase/1.0.0.0/XenyriaExperienceEnhancementModBase-1.0.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.m2/repository/xenyria/mod/XenyriaExperienceEnhancementModBase/1.0.0.0/XenyriaExperienceEnhancementModBase-1.0.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/47032dcf2f69880f07dab3dc60b4b0ad97318308/json-20211205.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/7ef9457afae7decccc4317a53cbce5b87c283487/json-20211205-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/da7389375f5fe45eda82bc552e77513057811748/json-20211205-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/tiny-mappings-parser/0.3.0+build.17/2f10540a290e382a7cd35c16ec3900046a4e252/tiny-mappings-parser-0.3.0+build.17.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/tiny-mappings-parser/0.3.0+build.17/a4bce6ed0c98bd273147203f8e708db013905eb5/tiny-mappings-parser-0.3.0+build.17-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/7a4ca9d54d9ae564dea0363d668036a8420ed9b8/sponge-mixin-0.10.7+mixin.0.8.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/f2db3d41608bfbee94b196e313eed995da8e12/sponge-mixin-0.10.7+mixin.0.8.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/901cbac267c964431e5bcf382a8bb4266a639267/sponge-mixin-0.10.7+mixin.0.8.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/tiny-remapper/0.6.0/f933e87da52f2e36f73ddfe5401f1029937d4118/tiny-remapper-0.6.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/tiny-remapper/0.6.0/267f5c942977f83922632d533355290148ac2198/tiny-remapper-0.6.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/access-widener/2.0.1/ef3d217a193b22d6dde944ccd4af525a89096b2f/access-widener-2.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/access-widener/2.0.1/505a9ea9a8cb2476d659345742578e75f11e48ae/access-widener-2.0.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/access-widener/2.0.1/11eb33b1c3b653f3dca61c93c25bc78cd4c247fa/access-widener-2.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/81a03f76019c67362299c40e0ba13405f5467bff/asm-9.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/b4514cf4de7355e27e628850374004e741c42efc/asm-9.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/51671fdebd3583f10254fab0e2077ed49c461650/asm-9.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.2/7487dd756daf96cab9986e44b9d7bcb796a61c10/asm-analysis-9.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.2/ffcdac47db150e450c57970dac760206004ad82b/asm-analysis-9.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.2/296a49fa21d815fc92eec1007ea2708983e8df2c/asm-analysis-9.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/f4d7f0fc9054386f2893b602454d48e07d4fbead/asm-commons-9.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/1a6165b4f1770b39a6848d7274c0f5b27776e963/asm-commons-9.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/acfb5bbdf1cd11aaff127233c641a176e1ebd473/asm-commons-9.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.2/d96c99a30f5e1a19b0e609dbb19a44d8518ac01e/asm-tree-9.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.2/ede38058176b5199dc49b17cdbce82c1972533dd/asm-tree-9.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.2/d7c4f2660898c227b2fb209f94ca15ae45722535/asm-tree-9.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/fbc178fc5ba3dab50fd7e8a5317b8b647c8e8946/asm-util-9.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/6a25f5d601ccd3137bc3637ac94bb7592c6287fc/asm-util-9.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/f04d12daefcb3cf02ef27e67c1ccbac24d2f5c6f/asm-util-9.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.18.1+build.22/1d9a4862020f606b8a04ece67e36c11adee9d704/yarn-1.18.1+build.22-constants.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.18.1+build.22/53bc19558b0c847f51af7331fa6092a812e7ea8e/yarn-1.18.1+build.22-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.18.1+build.22/156fb532e3dc9066662a99248c7f7a00548df2de/yarn-1.18.1+build.22-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.6/7039c2c6209064ee4132cea7a0737b63b92c725e/blocklist-1.0.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.6/bc6487aac5ce3c18d1cea07076feefc995bf27b4/blocklist-1.0.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.1.6/ce112c16c6275fdfff2d30208533ec906a191f71/patchy-2.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/69.1/ff666ac55986650893aacb9e2e0003538e9799c0/icu4j-69.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/60e8e309548f93ea55ace6c614966cd0e1c7e6b4/httpclient-4.5.13-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/9654e91a61d7662c36be6710ef8e720c0e3f9807/httpclient-4.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/ee8e57a79300f78294576d87c4a587f8c99402e2/lwjgl-jemalloc-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/2b772a102b0a11ee5f2109a5b136f4dc7c630827/lwjgl-openal-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/6ac5bb88b44c43ea195a570aab059f63da004cd8/lwjgl-opengl-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/d3ad4df38e400b8afba1de63f84338809399df5b/lwjgl-glfw-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f/lwjgl-stb-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9/lwjgl-tinyfd-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/ba657a222ee267b75fa81ae5ab29ae29b50f725f/lwjgl-tinyfd-3.2.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/2fe76dcf2ca02ae0e64ac7c69eb251c09df0e922/lwjgl-tinyfd-3.2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/8ad6294407e15780b43e84929c40e4c5e997972e/lwjgl-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.11.3/f378f889797edd7df8d32272c06ca80a1b6b0f58/text2speech-1.11.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.11.3/772a37dd77417571e6f119a8d306f0c14c2ee410/text2speech-1.11.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/fb0092f22cb4fe8e631452f577b7a238778abf2a/java-objc-bridge-1.0.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/865837a198189aee737019561ece842827f24278/java-objc-bridge-1.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/1.18.1/net.fabricmc.yarn.1_18_1.1.18.1+build.22-v2/minecraft-project-@-merged-named.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/1.18.1/net.fabricmc.yarn.1_18_1.1.18.1+build.22-v2/minecraft-project-@-merged-named-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.2/3a4c610d5991654009653e55b3204065441e2f0d/oshi-core-5.8.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.9.0/c535a5bda553d7d7690356c825010da74b2671b5/jna-platform-5.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.9.0/8f503e6d9b500ceff299052d6be75b38c7257758/jna-5.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.14.1/312b4d91b21160b9fab43600fa787f31e8cab930/log4j-slf4j18-impl-2.14.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/c876796229b2ef5120f186eab5acc870699d3b9/javabridge-1.2.24.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/a9ca59eebc32c5c771075df31a0b6e31d2ed8565/javabridge-1.2.24-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.68.Final/b8266a3c93c1c051109f71d3449e5dcd5d60b333/netty-all-4.1.68.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.0.26/ebd6690f33871ccee9b6132c6480668ee2e35020/datafixerupper-4.0.26.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.0.26/56aaa69cfefc74d50051d6e46895a922f47ff22b/datafixerupper-4.0.26-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/119ea2b2bc205b138974d351777b20f02b92704b/guava-31.0.1-jre.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/f93ce897789cb28518ebb7a8a6bc3946922bc8b6/brigadier-1.0.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.8/431fc3cbc0ff81abdbfde070062741089c3ba874/gson-2.8.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.2.38/7bba19e34be22fded9ceb409ca1e8fb7525daf55/authlib-3.2.38.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.2.38/459ba31e786f9a27b0a9deb5517ca44fbc7d402c/authlib-3.2.38-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/76f95700418a68fbc4ac050525261f05dc681ca1/fastutil-8.5.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.14.1/9141212b8507ab50a45525b545b39d224614528b/log4j-core-2.14.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.14.1/7f640e4855733d9532eed15af62c54956e7b8224/log4j-core-2.14.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/cd8858fbbde69f46bce8db1152c18a43328aae78/log4j-api-2.14.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/b2327c47ca413c1ec183575b19598e281fcd74d8/log4j-api-2.14.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api/0.46.2+1.18/fabric-api-0.46.2+1.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api/0.46.2+1.18/fabric-api-0.46.2+1.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/1.5.7+b4f4f6cd3a/fabric-transfer-api-v1-1.5.7+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/1.5.7+b4f4f6cd3a/fabric-transfer-api-v1-1.5.7+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.5.1+17be577f3a/fabric-api-lookup-api-v1-1.5.1+17be577f3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.5.1+17be577f3a/fabric-api-lookup-api-v1-1.5.1+17be577f3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.9+3ac43d953a/fabric-blockrenderlayer-v1-1.1.9+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.9+3ac43d953a/fabric-blockrenderlayer-v1-1.1.9+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.5+b4f4f6cd3a/fabric-commands-v0-0.2.5+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.5+b4f4f6cd3a/fabric-commands-v0-0.2.5+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.1.6+3ac43d953a/fabric-command-api-v1-1.1.6+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.1.6+3ac43d953a/fabric-command-api-v1-1.1.6+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.18+d154e2c63a/fabric-containers-v0-0.1.18+d154e2c63a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.18+d154e2c63a/fabric-containers-v0-0.1.18+d154e2c63a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/0.4.6+6f53a73d3a/fabric-content-registries-v0-0.4.6+6f53a73d3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/0.4.6+6f53a73d3a/fabric-content-registries-v0-0.4.6+6f53a73d3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/1.1.2+125404533a/fabric-data-generation-api-v1-1.1.2+125404533a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/1.1.2+125404533a/fabric-data-generation-api-v1-1.1.2+125404533a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.9+a1d9bbf53a/fabric-dimensions-v1-2.1.9+a1d9bbf53a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.9+a1d9bbf53a/fabric-dimensions-v1-2.1.9+a1d9bbf53a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.4.5+6b21378a3a/fabric-entity-events-v1-1.4.5+6b21378a3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.4.5+6b21378a3a/fabric-entity-events-v1-1.4.5+6b21378a3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.4.16+bfa23f173a/fabric-events-interaction-v0-0.4.16+bfa23f173a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.4.16+bfa23f173a/fabric-events-interaction-v0-0.4.16+bfa23f173a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.7+b4f4f6cd3a/fabric-events-lifecycle-v0-0.2.7+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.7+b4f4f6cd3a/fabric-events-lifecycle-v0-0.2.7+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.0.8+e66b59e93a/fabric-gametest-api-v1-1.0.8+e66b59e93a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.0.8+e66b59e93a/fabric-gametest-api-v1-1.0.8+e66b59e93a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-item-api-v1/1.3.0+691a79b53a/fabric-item-api-v1-1.3.0+691a79b53a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-item-api-v1/1.3.0+691a79b53a/fabric-item-api-v1-1.3.0+691a79b53a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-item-groups-v0/0.3.4+3ac43d953a/fabric-item-groups-v0-0.3.4+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-item-groups-v0/0.3.4+3ac43d953a/fabric-item-groups-v0-0.3.4+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-structure-api-v1/2.1.1+0a73a6c23a/fabric-structure-api-v1-2.1.1+0a73a6c23a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-structure-api-v1/2.1.1+0a73a6c23a/fabric-structure-api-v1-2.1.1+0a73a6c23a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/1.4.11+e66b59e93a/fabric-lifecycle-events-v1-1.4.11+e66b59e93a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/1.4.11+e66b59e93a/fabric-lifecycle-events-v1-1.4.11+e66b59e93a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1/1.0.8+3ac43d953a/fabric-loot-tables-v1-1.0.8+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1/1.0.8+3ac43d953a/fabric-loot-tables-v1-1.0.8+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-mining-levels-v0/0.1.9+b4f4f6cd3a/fabric-mining-levels-v0-0.1.9+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-mining-levels-v0/0.1.9+b4f4f6cd3a/fabric-mining-levels-v0-0.1.9+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-object-builders-v0/0.7.10+3ac43d953a/fabric-object-builders-v0-0.7.10+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-object-builders-v0/0.7.10+3ac43d953a/fabric-object-builders-v0-0.7.10+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/1.11.2+3b82842e3a/fabric-object-builder-api-v1-1.11.2+3b82842e3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/1.11.2+3b82842e3a/fabric-object-builder-api-v1-1.11.2+3b82842e3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-tool-attribute-api-v1/1.3.6+fb3b57b43a/fabric-tool-attribute-api-v1-1.3.6+fb3b57b43a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-tool-attribute-api-v1/1.3.6+fb3b57b43a/fabric-tool-attribute-api-v1-1.3.6+fb3b57b43a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/1.0.4+3ac43d953a/fabric-mining-level-api-v1-1.0.4+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/1.0.4+3ac43d953a/fabric-mining-level-api-v1-1.0.4+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.3+3ac43d953a/fabric-models-v0-0.3.3+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.3+3ac43d953a/fabric-models-v0-0.3.3+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-networking-v0/0.3.5+b4f4f6cd3a/fabric-networking-v0-0.3.5+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-networking-v0/0.3.5+b4f4f6cd3a/fabric-networking-v0-0.3.5+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/0.9.0+befed49e3a/fabric-registry-sync-v0-0.9.0+befed49e3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/0.9.0+befed49e3a/fabric-registry-sync-v0-0.9.0+befed49e3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.1.11+3ac43d953a/fabric-screen-handler-api-v1-1.1.11+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.1.11+3ac43d953a/fabric-screen-handler-api-v1-1.1.11+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.0.18+3ac43d953a/fabric-networking-api-v1-1.0.18+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.0.18+3ac43d953a/fabric-networking-api-v1-1.0.18+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-particles-v1/0.2.9+526dc1ac3a/fabric-particles-v1-0.2.9+526dc1ac3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-particles-v1/0.2.9+526dc1ac3a/fabric-particles-v1-0.2.9+526dc1ac3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/0.4.13+b0b66fc33a/fabric-renderer-indigo-0.4.13+b0b66fc33a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/0.4.13+b0b66fc33a/fabric-renderer-indigo-0.4.13+b0b66fc33a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/0.4.10+b0b66fc33a/fabric-renderer-api-v1-0.4.10+b0b66fc33a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/0.4.10+b0b66fc33a/fabric-renderer-api-v1-0.4.10+b0b66fc33a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.8+b4f4f6cd3a/fabric-renderer-registries-v1-3.2.8+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.8+b4f4f6cd3a/fabric-renderer-registries-v1-3.2.8+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.4+7242e9d73a/fabric-rendering-data-attachment-v1-0.3.4+7242e9d73a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.4+7242e9d73a/fabric-rendering-data-attachment-v1-0.3.4+7242e9d73a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/0.1.18+3ac43d953a/fabric-rendering-fluids-v1-0.1.18+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/0.1.18+3ac43d953a/fabric-rendering-fluids-v1-0.1.18+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.10+b4f4f6cd3a/fabric-rendering-v0-1.1.10+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.10+b4f4f6cd3a/fabric-rendering-v0-1.1.10+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-v1/1.10.4+e66b59e93a/fabric-rendering-v1-1.10.4+e66b59e93a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-rendering-v1/1.10.4+e66b59e93a/fabric-rendering-v1-1.10.4+e66b59e93a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/1.0.7+3ac43d953a/fabric-screen-api-v1-1.0.7+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/1.0.7+3ac43d953a/fabric-screen-api-v1-1.0.7+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-tag-extensions-v0/1.2.6+3ac43d953a/fabric-tag-extensions-v0-1.2.6+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-tag-extensions-v0/1.2.6+3ac43d953a/fabric-tag-extensions-v0-1.2.6+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-textures-v0/1.0.9+3ac43d953a/fabric-textures-v0-1.0.9+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-textures-v0/1.0.9+3ac43d953a/fabric-textures-v0-1.0.9+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.1+b4f4f6cd3a/fabric-api-base-0.4.1+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.1+b4f4f6cd3a/fabric-api-base-0.4.1+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/6.0.1+ded849a93a/fabric-biome-api-v1-6.0.1+ded849a93a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/6.0.1+ded849a93a/fabric-biome-api-v1-6.0.1+ded849a93a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1/0.1.8+3ac43d953a/fabric-crash-report-info-v1-0.1.8+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1/0.1.8+3ac43d953a/fabric-crash-report-info-v1-0.1.8+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1/1.0.10+3ac43d953a/fabric-game-rule-api-v1-1.0.10+3ac43d953a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1/1.0.10+3ac43d953a/fabric-game-rule-api-v1-1.0.10+3ac43d953a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.6+b4f4f6cd3a/fabric-keybindings-v0-0.2.6+b4f4f6cd3a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.6+b4f4f6cd3a/fabric-keybindings-v0-0.2.6+b4f4f6cd3a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.8+c8aba2f33a/fabric-key-binding-api-v1-1.0.8+c8aba2f33a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.8+c8aba2f33a/fabric-key-binding-api-v1-1.0.8+c8aba2f33a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1/1.0.1+13eda0653a/fabric-resource-conditions-api-v1-1.0.1+13eda0653a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1/1.0.1+13eda0653a/fabric-resource-conditions-api-v1-1.0.1+13eda0653a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.4.12+e66b59e93a/fabric-resource-loader-v0-0.4.12+e66b59e93a.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.4.12+e66b59e93a/fabric-resource-loader-v0-0.4.12+e66b59e93a-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-loader/0.12.12/fabric-loader-0.12.12.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_1_1_18_1_build_22_v2/net/fabricmc/fabric-loader/0.12.12/fabric-loader-0.12.12-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/d75b314d351382988c782f08467e5d74571f7c25/terminalconsoleappender-1.2.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/c9e9c6ef25149f84e9ca5d133b4016749d95c1a2/terminalconsoleappender-1.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/894e4af172edf98872bf87f5a90912f86f3e9158/auto-service-1.0-rc7.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/a8620058576e25671bbda2a0e797a27dabdbc6cb/auto-service-1.0-rc7-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/b066949eadb34baa5624e0523140bb11158804c1/auto-service-1.0-rc7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/c8f153ebe04a17183480ab4016098055fb474364/auto-common-0.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/d31bbbea3415c1e30106e1e96443c8c1bc3e2304/auto-common-0.10-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/913c8de9604380c6e135086132adb26c77fa6c53/auto-common-0.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/afe01a64b9d10b6888f7cf46331023b42170e62c/jline-reader-3.12.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/88d7d2011ebec345d0a5c6237be1e7be864c7ec8/jline-reader-3.12.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/25f589b7bd232f93dac031589c260143d54c5ae4/jline-terminal-3.12.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/3f3b61e6f3eafeba0c289b308926e0f93457140/jline-terminal-3.12.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/8849037b03b10cd3d71cce67f8b99aed183971cb/auto-service-annotations-1.0-rc7.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/d4e6292c44ee5ac25f16f329bcd70483b906be44/auto-service-annotations-1.0-rc7-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/9cf45a9ba8088845bf25fd4674e13b416a0efd60/auto-service-annotations-1.0-rc7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/fabric-loom/1.18.1/net.fabricmc.yarn.1_18_1.1.18.1+build.22-v2/mappings.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/d75b314d351382988c782f08467e5d74571f7c25/terminalconsoleappender-1.2.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/c9e9c6ef25149f84e9ca5d133b4016749d95c1a2/terminalconsoleappender-1.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/894e4af172edf98872bf87f5a90912f86f3e9158/auto-service-1.0-rc7.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/a8620058576e25671bbda2a0e797a27dabdbc6cb/auto-service-1.0-rc7-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc7/b066949eadb34baa5624e0523140bb11158804c1/auto-service-1.0-rc7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/c8f153ebe04a17183480ab4016098055fb474364/auto-common-0.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/d31bbbea3415c1e30106e1e96443c8c1bc3e2304/auto-common-0.10-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.10/913c8de9604380c6e135086132adb26c77fa6c53/auto-common-0.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/afe01a64b9d10b6888f7cf46331023b42170e62c/jline-reader-3.12.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/88d7d2011ebec345d0a5c6237be1e7be864c7ec8/jline-reader-3.12.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/25f589b7bd232f93dac031589c260143d54c5ae4/jline-terminal-3.12.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/3f3b61e6f3eafeba0c289b308926e0f93457140/jline-terminal-3.12.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/8849037b03b10cd3d71cce67f8b99aed183971cb/auto-service-annotations-1.0-rc7.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/d4e6292c44ee5ac25f16f329bcd70483b906be44/auto-service-annotations-1.0-rc7-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.0-rc7/9cf45a9ba8088845bf25fd4674e13b416a0efd60/auto-service-annotations-1.0-rc7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/Kevin/.gradle/caches/fabric-loom/1.18.1/net.fabricmc.yarn.1_18_1.1.18.1+build.22-v2/mappings.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

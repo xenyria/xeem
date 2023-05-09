@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "xenyria_eem",
+  "version": "${version}",
+
+  "name": "Xenyria Experience Enhancement Mod",
+  "description": "Provides Discord Rich Presence for the Xenyria Server Network (play.xenyria.net)",
+  "authors": [
+    "_Trasher"
+  ],
+  "contact": {
+    "homepage": "https://xenyria.net/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/xenyria/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.xenyria.eem.XenyriaExperienceEnhancementMod"
+    ]
+  },
+  "mixins": [
+    "xenyria.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.19.4",
+    "java": ">=11"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
