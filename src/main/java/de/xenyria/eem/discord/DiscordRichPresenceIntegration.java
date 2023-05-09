@@ -114,10 +114,11 @@ public class DiscordRichPresenceIntegration {
                         smallImageText,
                         largeImageId,
                         largeImageText);
-
-                // Run callbacks
-                discordActivityAccess.runCallbacks();
+            } else {
+                discordActivityAccess.stop();
             }
+            // Run callbacks
+            discordActivityAccess.runCallbacks();
         }, UPDATE_INTERVAL, UPDATE_INTERVAL, TimeUnit.MILLISECONDS);
 
 
