@@ -23,7 +23,7 @@ public class DiscordRichPresenceIntegration {
     // Delay in milliseconds until we assume that the connection to the server has been lost
     public static final long TIMEOUT = 3000L;
     // Delay in milliseconds for activity updates
-    public static final long UPDATE_INTERVAL = 1000L;
+    public static final long UPDATE_INTERVAL = 500L;
 
     // Constructor
     private DiscordRichPresenceIntegration() throws IllegalStateException {
@@ -68,7 +68,7 @@ public class DiscordRichPresenceIntegration {
 
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         LOGGER.info("Starting API task...");
-        executor.schedule(() -> {
+        executor.scheduleAtFixedRate(() -> {
             JSONObject richPresenceData = null;
             boolean isDataPresent = false;
 
@@ -118,7 +118,7 @@ public class DiscordRichPresenceIntegration {
                 // Run callbacks
                 discordActivityAccess.runCallbacks();
             }
-        }, UPDATE_INTERVAL, TimeUnit.MILLISECONDS);
+        }, UPDATE_INTERVAL, UPDATE_INTERVAL, TimeUnit.MILLISECONDS);
 
 
     }
