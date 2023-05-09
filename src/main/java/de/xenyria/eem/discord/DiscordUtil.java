@@ -79,7 +79,7 @@ public class DiscordUtil {
     }
 
     /**
-     * @return Downloads and extracts the required native library from Discord's Game SDK
+     * Downloads and extracts the required native library from Discord's Game SDK
      */
     public static void downloadGameSDK(File output) throws IOException {
         // Determine which file we'll need from the zip file
@@ -90,7 +90,7 @@ public class DiscordUtil {
 
         // Read the downlaaded zip file
         try(ZipInputStream zipInputStream = new ZipInputStream(connection.getInputStream())) {
-            ZipEntry currentZipEntry = null;
+            ZipEntry currentZipEntry;
             while ((currentZipEntry = zipInputStream.getNextEntry()) != null) {
                 // Check if it's the file we are searching for...
                 try {

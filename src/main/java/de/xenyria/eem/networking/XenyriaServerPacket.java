@@ -3,8 +3,6 @@ package de.xenyria.eem.networking;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.ParseException;
-
 public class XenyriaServerPacket {
 
     /** Packets are separated into different types/categories **/
@@ -28,7 +26,7 @@ public class XenyriaServerPacket {
      */
     public static XenyriaServerPacket parsePacket(String rawJson) {
 
-        JSONObject jsonData = null;
+        JSONObject jsonData;
         try {
             jsonData = new JSONObject(rawJson);
         } catch (JSONException exception) {
@@ -40,7 +38,7 @@ public class XenyriaServerPacket {
             PacketListener.LOGGER.severe("Malformed packet, missing type field.");
             return null;
         }
-        EPacketType parsedPacketType = null;
+        EPacketType parsedPacketType;
         try {
             parsedPacketType = EPacketType.valueOf(jsonData.getString("type").toUpperCase());
         } catch (IllegalArgumentException exception) {

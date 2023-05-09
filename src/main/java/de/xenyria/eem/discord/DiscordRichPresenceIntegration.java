@@ -37,7 +37,7 @@ public class DiscordRichPresenceIntegration {
     /**
      * Interface for accessing Discord's activity API
      */
-    private IDiscordActivityAccess discordActivityAccess;
+    private final IDiscordActivityAccess discordActivityAccess;
     public IDiscordActivityAccess getActivityAccess() {
         return discordActivityAccess;
     }

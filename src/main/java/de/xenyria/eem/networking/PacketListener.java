@@ -19,7 +19,7 @@ public class PacketListener {
         LOGGER.info("Registering packet receiver for plugin messages...");
         ClientPlayNetworking.registerGlobalReceiver(
                 ID, (client, handler, buf, responseSender) -> {
-                    /**
+                    /*
                      * Packets sent by the server consist of a 4-byte Integer
                      * and a byte array that represents UTF-8 string data.
                      */
