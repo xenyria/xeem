@@ -21,6 +21,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Setup Java JDK
         uses: actions/setup-java@v3.4.1
         with:
@@ -28,9 +31,6 @@ jobs:
           java-version: 17
           # Java distribution. See the list of supported distributions in README file
           distribution: temurin
-
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
 
       - name: Gradle Wrapper Validation
         uses: gradle/wrapper-validation-action@v1.0.4
