@@ -24,6 +24,10 @@ You can join our Server on `play.xenyria.net`.
 - [Fabric](https://fabricmc.net/)
 - [JCM's discord-game-sdk4j](https://github.com/JnCrMx/discord-game-sdk4j)
 
+## Contributing
+
+This project is open to contributions. Please read the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
 ## License
 
 This project is released to the public under the [MIT License](LICENSE).
