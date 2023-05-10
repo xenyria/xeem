@@ -7,7 +7,7 @@ public class XenyriaServerPacket {
 
     /** Packets are separated into different types/categories **/
     public enum EPacketType {
-        RP // Rich-Presence (Discord Integration)
+        RP // Rich Presence (Discord Integration)
     }
 
     private final EPacketType packetType;
