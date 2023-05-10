@@ -19,7 +19,7 @@ public class DiscordRichPresenceIntegration {
         instance = new DiscordRichPresenceIntegration();
     }
 
-    public static Logger LOGGER = LoggerFactory.getLogger("Xenyria/DiscordIntegration");
+    public static Logger LOGGER = LoggerFactory.getLogger("Xenyria/EEM/Discord");
     // Delay in milliseconds until we assume that the connection to the server has been lost
     public static final long TIMEOUT = 3000L;
     // Delay in milliseconds for activity updates
