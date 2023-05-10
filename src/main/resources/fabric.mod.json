@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "de.xenyria.eem.XenyriaExperienceEnhancementMod"
+    ],
+    "modmenu": [
+      "de.xenyria.eem.config.screen.XenyriaConfigScreen"
     ]
   },
   "mixins": [
@@ -32,5 +35,14 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/xenyria"
+      },
+      "badges": [],
+      "update_checker": false
+    }
   }
 }

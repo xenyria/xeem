@@ -23,6 +23,13 @@ repositories {
 	maven {
 		url "https://jitpack.io"
 	}
+	// TerraformersMC ModMenu
+	maven {
+		url "https://maven.terraformersmc.com/"
+	}
+	// Cloth Config
+	maven { url "https://maven.shedaniel.me/" }
+	maven { url "https://maven.terraformersmc.com/releases/" }
 }
 
 dependencies {
@@ -35,13 +42,22 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation "org.json:json:20220320"
 	modImplementation "com.github.JnCrMx:discord-game-sdk4j:v0.5.5"
+	modImplementation "com.terraformersmc:modmenu:6.2.1"
+
+	modApi("me.shedaniel.cloth:cloth-config-fabric:10.0.96") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 
 	modCompileOnly "com.github.JnCrMx:discord-game-sdk4j:v0.5.5"
 	compileOnly "com.github.JnCrMx:discord-game-sdk4j:v0.5.5"
 	modCompileOnly "org.json:json:20220320"
 	compileOnly "org.json:json:20220320"
+	modCompileOnly "com.terraformersmc:modmenu:6.2.2"
+	compileOnly "com.terraformersmc:modmenu:6.2.2"
+
 	shadow("org.json:json:20220320")
 	shadow("com.github.JnCrMx:discord-game-sdk4j:v0.5.5")
+	shadow("com.terraformersmc:modmenu:6.2.2")
 
 }
 

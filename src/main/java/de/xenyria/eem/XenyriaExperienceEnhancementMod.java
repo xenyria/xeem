@@ -1,6 +1,7 @@
 package de.xenyria.eem;
 
 import de.xenyria.eem.discord.DiscordRichPresenceIntegration;
+import de.xenyria.eem.paintsquad.PaintSquadInputManager;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +24,7 @@ public class XenyriaExperienceEnhancementMod implements ModInitializer {
 		} catch (IllegalStateException exception) {
 			LOGGER.error("Discord integration could not be initialized: " + exception.getMessage());
 		}
+
 
 	}
 }
