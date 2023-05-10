@@ -1,4 +1,4 @@
-package de.xenyria.eem.networking;
+package net.xenyria.eem.networking;
 
 import org.json.JSONException;
 import org.json.JSONObject;

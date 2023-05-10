@@ -1,6 +1,6 @@
-package de.xenyria.eem.networking;
+package net.xenyria.eem.networking;
 
-import de.xenyria.eem.discord.DiscordRichPresenceIntegration;
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.util.Identifier;
 

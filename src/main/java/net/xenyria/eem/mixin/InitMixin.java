@@ -1,6 +1,6 @@
-package de.xenyria.eem.mixin;
+package net.xenyria.eem.mixin;
 
-import de.xenyria.eem.networking.PacketListener;
+import net.xenyria.eem.networking.PacketListener;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

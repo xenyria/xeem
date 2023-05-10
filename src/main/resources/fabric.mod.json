@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "de.xenyria.eem.XenyriaExperienceEnhancementMod"
+      "net.xenyria.eem.XenyriaExperienceEnhancementMod"
     ]
   },
   "mixins": [

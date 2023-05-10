@@ -1,7 +1,7 @@
-package de.xenyria.eem.discord;
+package net.xenyria.eem.discord;
 
-import de.xenyria.eem.discord.activity.DefaultDiscordActivityAccess;
-import de.xenyria.eem.discord.activity.IDiscordActivityAccess;
+import net.xenyria.eem.discord.activity.DefaultDiscordActivityAccess;
+import net.xenyria.eem.discord.activity.IDiscordActivityAccess;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
-package de.xenyria.eem;
+package net.xenyria.eem;
 
-import de.xenyria.eem.discord.DiscordRichPresenceIntegration;
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -21,6 +21,10 @@ public class XenyriaExperienceEnhancementMod implements ClientModInitializer {
 			LOGGER.info("Attempting to initialize Discord Integration...");
 			DiscordRichPresenceIntegration.createInstance();
 			LOGGER.info("Discord Integration has been successfully initialized.");
+
+			LOGGER.info("Registering keybinds...");
+			Keybinds.register();
+			LOGGER.info("Keybinds have been successfully registered.");
 		} catch (IllegalStateException exception) {
 			LOGGER.error("Discord integration could not be initialized: " + exception.getMessage());
 		}

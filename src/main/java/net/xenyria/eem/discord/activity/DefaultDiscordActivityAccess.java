@@ -1,10 +1,10 @@
-package de.xenyria.eem.discord.activity;
+package net.xenyria.eem.discord.activity;
 
 import de.jcm.discordgamesdk.Core;
 import de.jcm.discordgamesdk.CreateParams;
 import de.jcm.discordgamesdk.activity.Activity;
 import de.jcm.discordgamesdk.activity.ActivityType;
-import de.xenyria.eem.discord.DiscordUtil;
+import net.xenyria.eem.discord.DiscordUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
