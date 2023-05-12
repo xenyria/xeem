@@ -1,4 +1,4 @@
-package de.xenyria.eem.networking;
+package net.xenyria.eem.networking;
 
 import io.netty.buffer.Unpooled;
 import net.minecraft.client.MinecraftClient;
@@ -12,14 +12,18 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-import static de.xenyria.eem.networking.PacketListener.LOGGER;
+import static net.xenyria.eem.networking.PacketListener.LOGGER;
 
 public class XenyriaServerPacket {
 
     /** Packets are separated into different types/categories **/
     public enum EPacketType {
         RP, // Rich-Presence (Discord Integration)
-        PS_SHOOTING_STATE // PaintSquad
+        PS_SHOOTING_STATE, // PaintSquad
+        HANDSHAKE_INIT, // Server Switch / Server Info Change (Sent by the server)
+        HANDSHAKE_RESPONSE, // Sent by the client, informs the server about the mod being active
+        DEBUG, // Debug Operation (printing client-side variables into the chat)
+        SETTINGS_CHANGED // Sent by the client when settings are changed
     }
 
     private final EPacketType packetType;

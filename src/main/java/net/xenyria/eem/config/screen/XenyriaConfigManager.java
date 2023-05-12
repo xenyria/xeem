@@ -1,10 +1,9 @@
-package de.xenyria.eem.config.screen;
+package net.xenyria.eem.config.screen;
 
-import de.xenyria.eem.XenyriaExperienceEnhancementMod;
 import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.api.ConfigCategory;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableTextContent;
+import net.xenyria.eem.networking.XenyriaServerPacket;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -22,7 +21,7 @@ public class XenyriaConfigManager {
     private static final File configFolder = new File("config/xenyria");
     private static final File configFile = new File(configFolder, "xenyria_eem.config.json");
 
-    private static XenyriaConfig config;
+    private static XenyriaConfig config = new XenyriaConfig();
     public static XenyriaConfig getConfig() { return config; }
 
     public static void loadConfig() throws IOException, JSONException {
@@ -42,7 +41,9 @@ public class XenyriaConfigManager {
 
     public static void saveConfig() throws IOException, IllegalStateException{
         if (!configFolder.exists()) {
-            configFolder.mkdirs();
+            if(!configFolder.mkdirs()) {
+                throw new IOException("Couldn't create the folder for the config file for Xenyria EEM.");
+            }
         }
 
         if(!configFile.exists()) {
@@ -61,6 +62,10 @@ public class XenyriaConfigManager {
         if(!configFolder.isDirectory()) {
             throw new IllegalStateException("Config folder has to be a folder, not a file.");
         }
+
+        // Notify the server about config changes (e.g. resetting internal variables for PS's shooting detection)
+        var packet = new XenyriaServerPacket(XenyriaServerPacket.EPacketType.SETTINGS_CHANGED, new JSONObject());
+        packet.sendToServer();
     }
 
     public static ConfigBuilder getConfigurationBuilder() {
@@ -78,51 +83,51 @@ public class XenyriaConfigManager {
                 });
 
         ConfigCategory discordCategory
-                = configBuilder.getOrCreateCategory(Text.translatable("text.xenyria.settings.discord.title"));
+                = configBuilder.getOrCreateCategory(Text.translatable("config_category.xenyria_eem.discord.title"));
         discordCategory.addEntry(
                 configBuilder.entryBuilder()
                         .startBooleanToggle(
-                                Text.translatable("text.xenyria.settings.discord.rich_presence"),
+                                Text.translatable("config.xenyria_eem.discord.rp"),
                                 config.enableDiscordRichPresence
                         )
-                        .setDefaultValue(true)
-                        .setTooltip(Text.translatable("text.xenyria.settings.discord.rich_presence.tooltip"))
+                        .setDefaultValue(config.enableDiscordRichPresence)
+                        .setTooltip(Text.translatable("config.xenyria_eem.discord.rp.tooltip"))
                         .setSaveConsumer((newState) -> config.enableDiscordRichPresence = newState)
                         .build()
         );
         discordCategory.addEntry(
                 configBuilder.entryBuilder()
                         .startBooleanToggle(
-                                Text.translatable("text.xenyria.settings.discord.share_server_activity"),
-                                config.enableDiscordRichPresence
+                                Text.translatable("config.xenyria_eem.discord.details"),
+                                config.shareServerActivity
                         )
-                        .setDefaultValue(true)
-                        .setTooltip(Text.translatable("text.xenyria.settings.discord.share_server_activity.tooltip"))
+                        .setDefaultValue(config.shareServerActivity)
+                        .setTooltip(Text.translatable("config.xenyria_eem.discord.details.tooltip"))
                         .setSaveConsumer((newState) -> config.shareServerActivity = newState)
                         .build()
         );
 
         ConfigCategory paintSquadCategory
-                = configBuilder.getOrCreateCategory(Text.translatable("text.xenyria.settings.paintsquad.title"));
+                = configBuilder.getOrCreateCategory(Text.translatable("config_category.xenyria_eem.paintsquad.title"));
         paintSquadCategory.addEntry(
                 configBuilder.entryBuilder()
                         .startBooleanToggle(
-                                Text.translatable("text.xenyria.settings.paintsquad.swim_cam"),
-                                config.enableDiscordRichPresence
+                                Text.translatable("config.xenyria_eem.paintsquad.swim_cam"),
+                                config.swimFormCameraForPaintSquad
                         )
-                        .setDefaultValue(true)
-                        .setTooltip(Text.translatable("text.xenyria.settings.paintsquad.swim_cam.tooltip"))
+                        .setDefaultValue(config.swimFormCameraForPaintSquad)
+                        .setTooltip(Text.translatable("config.xenyria_eem.paintsquad.swim_cam.tooltip"))
                         .setSaveConsumer((newState) -> config.swimFormCameraForPaintSquad = newState)
                         .build()
         );
         paintSquadCategory.addEntry(
                 configBuilder.entryBuilder()
                         .startBooleanToggle(
-                                Text.translatable("text.xenyria.settings.paintsquad.shooting"),
-                                config.enableDiscordRichPresence
+                                Text.translatable("config.xenyria_eem.paintsquad.shooting"),
+                                config.improvedShootingDetectionForPaintSquad
                         )
-                        .setDefaultValue(true)
-                        .setTooltip(Text.translatable("text.xenyria.settings.paintsquad.shooting.tooltip"))
+                        .setDefaultValue(config.improvedShootingDetectionForPaintSquad)
+                        .setTooltip(Text.translatable("config.xenyria_eem.paintsquad.shooting.tooltip"))
                         .setSaveConsumer((newState) -> config.improvedShootingDetectionForPaintSquad = newState)
                         .build()
         );

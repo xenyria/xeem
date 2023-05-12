@@ -18,10 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.xenyria.eem.XenyriaExperienceEnhancementMod"
+      "net.xenyria.eem.XenyriaExperienceEnhancementMod"
     ],
     "modmenu": [
-      "de.xenyria.eem.config.screen.XenyriaConfigScreen"
+      "net.xenyria.eem.config.screen.XenyriaConfigScreen"
     ]
   },
   "mixins": [

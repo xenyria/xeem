@@ -1,7 +1,8 @@
-package de.xenyria.eem.paintsquad;
+package net.xenyria.eem.paintsquad;
 
-import de.xenyria.eem.networking.PacketListener;
-import de.xenyria.eem.networking.XenyriaServerPacket;
+import net.xenyria.eem.config.screen.XenyriaConfigManager;
+import net.xenyria.eem.networking.PacketListener;
+import net.xenyria.eem.networking.XenyriaServerPacket;
 import net.minecraft.client.MinecraftClient;
 import org.json.JSONObject;
 
@@ -29,15 +30,23 @@ public class PaintSquadInputManager {
             private boolean isShooting;
             @Override
             public void run() {
+                // Check if this feature is enabled...
+                if(!XenyriaConfigManager.getConfig().improvedShootingDetectionForPaintSquad) {
+                    return;
+                }
+                // Check if the player is holding the right mouse button
                 boolean hasChanged = false;
                 boolean isPressingRightMouseButton =
                         MinecraftClient.getInstance().options.useKey.isPressed();
 
+                // We only send state changes to the server (e.g. when the state switches from firing to not firing)
+                // So in this case we just check if the state has changed compared to the last check
                 if(isShooting != isPressingRightMouseButton) {
                     hasChanged = true;
                     isShooting = isPressingRightMouseButton;
                 }
 
+                // If a change has been detected we send a mod packet to the server
                 if(hasChanged) {
                     JSONObject payload = new JSONObject();
                     payload.put("shooting", isShooting);

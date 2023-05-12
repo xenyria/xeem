@@ -1,7 +1,6 @@
-package de.xenyria.eem;
+package net.xenyria.eem;
 
-import de.xenyria.eem.discord.DiscordRichPresenceIntegration;
-import de.xenyria.eem.paintsquad.PaintSquadInputManager;
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

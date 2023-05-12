@@ -1,4 +1,4 @@
-package de.xenyria.eem.config.screen;
+package net.xenyria.eem.config.screen;
 
 import org.json.JSONObject;
 
