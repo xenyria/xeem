@@ -12,12 +12,12 @@
     "homepage": "https://xenyria.net/"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/xenyria/icon.png",
+  "license": "MIT",
+  "icon": "assets/xenyria/logo.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.xenyria.eem.XenyriaExperienceEnhancementMod"
     ],
     "modmenu": [
@@ -27,7 +27,6 @@
   "mixins": [
     "xenyria.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.12.12",
     "minecraft": "1.19.4",
