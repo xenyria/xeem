@@ -71,7 +71,7 @@ public class XenyriaConfigManager {
     public static ConfigBuilder getConfigurationBuilder() {
 
         ConfigBuilder configBuilder = ConfigBuilder.create()
-                .setTitle(Text.translatable("text.xenyria.settings.title"))
+                .setTitle(Text.translatable("config.xenyria.settings.title"))
                 .setEditable(true)
                 .setTransparentBackground(true)
                 .setSavingRunnable(() -> {

@@ -1,5 +1,6 @@
 package net.xenyria.eem.mixin;
 
+import net.xenyria.eem.networking.PacketListener;
 import net.xenyria.eem.config.screen.XenyriaConfigManager;
 import net.xenyria.eem.networking.PacketListener;
 import net.xenyria.eem.paintsquad.PaintSquadInputManager;
@@ -14,6 +15,8 @@ public class InitMixin {
 
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
+        // Register the packet listener here for client-server communication
+        PacketListener.initialize();
         // Load the configuration file
         try {
             XenyriaConfigManager.loadConfig();
@@ -21,8 +24,6 @@ public class InitMixin {
             XenyriaConfigManager.LOGGER.error("Failed to load XEEM's configuration file on start-up: "
                     + exception.getMessage());
         }
-        // Register the packet listener here for client-server communication
-        PacketListener.initialize();
         // Register improved shooting detection for weapons in PaintSquad
         PaintSquadInputManager.createInstance();
     }

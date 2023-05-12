@@ -1,5 +1,8 @@
 package net.xenyria.eem.networking;
 
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.util.Identifier;
 import net.xenyria.eem.EXenyriaServerType;
 import net.xenyria.eem.PlayingSessionInformation;
 import net.xenyria.eem.config.screen.XenyriaConfigManager;
@@ -36,7 +39,7 @@ public class PacketListener {
 
                     // Try to parse the packet
                     XenyriaServerPacket packet = XenyriaServerPacket.parsePacket(rawJsonText);
-                    if (packet == null) {
+                    if(packet == null) {
                         LOGGER.warning("Unable to parse Xenyria packet with " + bytesToRead + " length.");
                         return;
                     }

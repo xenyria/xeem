@@ -13,7 +13,7 @@ import java.util.zip.ZipInputStream;
 
 public class DiscordUtil {
 
-    public static final String SDK_VERSION = "3.1.0";
+    public static final String SDK_VERSION = "latest";
     public static final String SDK_DOWNLOAD_URL = "https://dl-game-sdk.discordapp.net/" + SDK_VERSION + "/discord_game_sdk.zip";
 
     public static final String SEPARATOR_ZIP = "/";

@@ -1,4 +1,13 @@
 {
+    "config.xenyria.settings.title": "Einstellungen für Xenyria",
+    "key_category.xenyria_eem.xenyria": "Xenyria",
+    "key.xenyria_eem.achievements": "Errungenschaften",
+    "key.xenyria_eem.ping": "Ping",
+    "key.xenyria_eem.music_settings": "Musikeinstellungen",
+    "key.xenyria_eem.settings": "Einstellungen",
+    "key.xenyria_eem.stats": "Statistiken",
+    "key.xenyria_eem.lobby": "Spiellobby",
+    "key.xenyria_eem.hub": "Serverhub",
     "config_category.xenyria_eem.discord.title": "Discord Integration",
     "config.xenyria_eem.discord.rp": "Rich Presence",
     "config.xenyria_eem.discord.rp.tooltip": "When enabled your current activity on the Xenyria Server gets shared on Discord.",
