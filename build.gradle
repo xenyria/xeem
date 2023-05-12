@@ -58,7 +58,6 @@ dependencies {
 
 	shadow("org.json:json:20220320")
 	shadow("com.github.JnCrMx:discord-game-sdk4j:v0.5.5")
-	shadow("com.terraformersmc:modmenu:6.2.1")
 
 }
 

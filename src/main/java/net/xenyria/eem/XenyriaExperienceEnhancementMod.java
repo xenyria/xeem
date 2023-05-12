@@ -3,6 +3,7 @@ package net.xenyria.eem;
 import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
+import net.xenyria.eem.utils.Keybinds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

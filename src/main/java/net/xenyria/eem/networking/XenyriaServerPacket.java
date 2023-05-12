@@ -1,7 +1,18 @@
 package net.xenyria.eem.networking;
 
+import io.netty.buffer.Unpooled;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.network.packet.c2s.play.CustomPayloadC2SPacket;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+
+import static net.xenyria.eem.networking.PacketListener.LOGGER;
 
 public class XenyriaServerPacket {
 
@@ -35,24 +46,24 @@ public class XenyriaServerPacket {
         try {
             jsonData = new JSONObject(rawJson);
         } catch (JSONException exception) {
-            PacketListener.LOGGER.severe("Unable to parse packet from raw JSON: " + rawJson);
+            LOGGER.severe("Unable to parse packet from raw JSON: " + rawJson);
             return null;
         }
 
         if(!jsonData.has("type")) {
-            PacketListener.LOGGER.severe("Malformed packet, missing type field.");
+            LOGGER.severe("Malformed packet, missing type field.");
             return null;
         }
         EPacketType parsedPacketType;
         try {
             parsedPacketType = EPacketType.valueOf(jsonData.getString("type").toUpperCase());
         } catch (IllegalArgumentException exception) {
-            PacketListener.LOGGER.severe("Malformed packet, unknown type value: " + jsonData.getString("type"));
+            LOGGER.severe("Malformed packet, unknown type value: " + jsonData.getString("type"));
             return null;
         }
 
         if(!jsonData.has("data")) {
-            PacketListener.LOGGER.severe("Malformed packet, missing data field.");
+            LOGGER.severe("Malformed packet, missing data field.");
             return null;
         }
 

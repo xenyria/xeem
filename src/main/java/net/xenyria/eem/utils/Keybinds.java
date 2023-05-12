@@ -7,6 +7,7 @@ import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.network.packet.c2s.play.CommandExecutionC2SPacket;
 import net.minecraft.text.Text;
+import net.xenyria.eem.PlayingSessionInformation;
 import org.lwjgl.glfw.GLFW;
 
 import java.time.Instant;
@@ -69,6 +70,8 @@ public class Keybinds {
     }
 
     private static void registerCommandKeybind(MinecraftClient client, KeyBinding keybinding, String command) {
+        // Check if the user is on the server since you don't want to trigger certain macros on other servers
+        if(!PlayingSessionInformation.isOnNetwork()) { return; }
         while (keybinding.wasPressed()) client.player.networkHandler.sendChatCommand(command);
     }
 }
