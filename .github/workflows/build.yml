@@ -2,12 +2,11 @@ name: Build Releases
 
 # Controls when the workflow will run
 on:
-  push:
-    tags:
-      - "v[0-9]+.[0-9]+.[0-9a-zA-Z]+"
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      mod-version:
+        description: 'Mod version (e.g. "v1.0.0")'
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -46,3 +45,31 @@ jobs:
           files: build/libs/XenyriaExperienceEnhancementMod-+([0-9]).+([0-9]).+([0-9a-zA-Z]).jar
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           draft: true
+          tag_name: ${{ github.event.inputs.mod-version }}
+          name: ${{ github.event.inputs.mod-version }}
+          body: |
+            # ${{ github.event.inputs.mod-version }}
+            
+            ## Additions
+
+            - ...
+
+            ## Changes
+
+            - ...
+
+            ## Fixes
+
+            - ...
+
+            ## Removals
+
+            - ...
+
+            ## Known Issues
+
+            - ...
+
+            ## New Contributors
+
+            - ...
