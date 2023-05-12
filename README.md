@@ -17,12 +17,18 @@ You can join our Server on `play.xenyria.net`.
 ## Features
 
 - Adds a custom Discord Rich Presence to the game.
+- Adds improved shooting detection & camera switching for PaintSquad.
+- Keybinds for quickly accessing stats, ping and more.
 - *More to come in the near future*
+
+All features can be configured by via Mod Menu & cloth-config.
 
 ## Acknowledgements
 
 - [Fabric](https://fabricmc.net/)
 - [JCM's discord-game-sdk4j](https://github.com/JnCrMx/discord-game-sdk4j)
+- [TerraformersMC's ModMenu](https://github.com/TerraformersMC/ModMenu)
+- [shedaniel's cloth-config](https://github.com/shedaniel/cloth-config)
 
 ## Contributing
 
