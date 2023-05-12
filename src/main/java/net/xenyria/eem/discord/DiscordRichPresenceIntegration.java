@@ -6,6 +6,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.nio.charset.StandardCharsets;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -19,7 +20,7 @@ public class DiscordRichPresenceIntegration {
         instance = new DiscordRichPresenceIntegration();
     }
 
-    public static Logger LOGGER = LoggerFactory.getLogger("Xenyria/EEM/Discord");
+    public static Logger LOGGER = LoggerFactory.getLogger("Xenyria/DiscordIntegration");
     // Delay in milliseconds until we assume that the connection to the server has been lost
     public static final long TIMEOUT = 3000L;
     // Delay in milliseconds for activity updates
@@ -69,56 +70,66 @@ public class DiscordRichPresenceIntegration {
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         LOGGER.info("Starting API task...");
         executor.scheduleAtFixedRate(() -> {
-            JSONObject richPresenceData = null;
-            boolean isDataPresent = false;
+            try {
+                JSONObject richPresenceData = null;
+                boolean isDataPresent = false;
 
-            // Lock so this#setLastReceivedRichPresence is blocked while we copy data
-            synchronized (lock) {
-                if(lastReceivedRichPresence != null) {
-                    long deltaSinceLastPacket = System.currentTimeMillis() - lastReceivedPacket;
-                    if(deltaSinceLastPacket < TIMEOUT) {
-                        isDataPresent = true;
-                        richPresenceData = new JSONObject(lastReceivedRichPresence.toMap());
+                // Lock so this#setLastReceivedRichPresence is blocked while we copy data
+                synchronized (lock) {
+                    if (lastReceivedRichPresence != null) {
+                        long deltaSinceLastPacket = System.currentTimeMillis() - lastReceivedPacket;
+                        if (deltaSinceLastPacket < TIMEOUT) {
+                            isDataPresent = true;
+                            richPresenceData = new JSONObject(lastReceivedRichPresence.toMap());
+                        }
                     }
                 }
-            }
 
-            if(isDataPresent) {
+                if (isDataPresent) {
 
-                long applicationId = richPresenceData.getLong("applicationId");
-                if (applicationId != lastApplicationID) {
-                    // Application ID has changed - Therefore we restart our activity access with a different ID
-                    lastApplicationID = applicationId;
-                    LOGGER.info("Switching application ID to " + applicationId + "...");
+                    // Replace the received rich presence data with generic content
+                    // if the User doesn't want to share their activity on the server.
+                    if (!XenyriaConfigManager.getConfig().shareServerActivity) {
+                        richPresenceData = loadDefaultRichPresenceData();
+                    }
+
+                    long applicationId = richPresenceData.getLong("applicationId");
+                    if (applicationId != lastApplicationID) {
+                        // Application ID has changed - Therefore we restart our activity access with a different ID
+                        lastApplicationID = applicationId;
+                        LOGGER.info("Switching application ID to " + applicationId + "...");
+                        discordActivityAccess.stop();
+                        discordActivityAccess.start(applicationId);
+                        return;
+                    }
+
+                    // Pass rich presence data down to the Discord activity access
+                    var details = richPresenceData.getString("details");
+                    var state = richPresenceData.getString("state");
+                    var smallImageId = richPresenceData.getString("smallImageId");
+                    var smallImageText = richPresenceData.getString("smallImageText");
+                    var largeImageId = richPresenceData.getString("largeImageId");
+                    var largeImageText = richPresenceData.getString("largeImageText");
+                    var activityStart = richPresenceData.getLong("activityStart");
+                    var activityEnd = richPresenceData.getLong("activityEnd");
+
+                    discordActivityAccess.updateRichPresence(applicationId,
+                            details,
+                            state,
+                            activityStart,
+                            activityEnd,
+                            smallImageId,
+                            smallImageText,
+                            largeImageId,
+                            largeImageText);
+                } else {
                     discordActivityAccess.stop();
-                    discordActivityAccess.start(applicationId);
-                    return;
                 }
-
-                // Pass rich presence data down to the Discord activity access
-                var details = richPresenceData.getString("details");
-                var state = richPresenceData.getString("state");
-                var smallImageId = richPresenceData.getString("smallImageId");
-                var smallImageText = richPresenceData.getString("smallImageText");
-                var largeImageId = richPresenceData.getString("largeImageId");
-                var largeImageText = richPresenceData.getString("largeImageText");
-                var activityStart = richPresenceData.getLong("activityStart");
-                var activityEnd = richPresenceData.getLong("activityEnd");
-
-                discordActivityAccess.updateRichPresence(applicationId,
-                        details,
-                        state,
-                        activityStart,
-                        activityEnd,
-                        smallImageId,
-                        smallImageText,
-                        largeImageId,
-                        largeImageText);
-            } else {
-                discordActivityAccess.stop();
+                // Run callbacks
+                discordActivityAccess.runCallbacks();
+            } catch (Exception e) {
+                LOGGER.error("An error occurred during the rich presence update loop", e);
             }
-            // Run callbacks
-            discordActivityAccess.runCallbacks();
         }, UPDATE_INTERVAL, UPDATE_INTERVAL, TimeUnit.MILLISECONDS);
 
 

@@ -16,7 +16,6 @@ public class XenyriaExperienceEnhancementMod implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		LOGGER.info("Xenyria Mod has been initialized.");
-
 		try {
 			LOGGER.info("Attempting to initialize Discord Integration...");
 			DiscordRichPresenceIntegration.createInstance();

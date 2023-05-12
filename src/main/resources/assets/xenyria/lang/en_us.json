@@ -6,5 +6,15 @@
     "key.xenyria_eem.settings": "Settings",
     "key.xenyria_eem.stats": "Stats",
     "key.xenyria_eem.lobby": "Game Lobby",
-    "key.xenyria_eem.hub": "Server Hub"
+    "key.xenyria_eem.hub": "Server Hub",
+    "config_category.xenyria_eem.discord.title": "Discord Integration",
+    "config.xenyria_eem.discord.rp": "Rich Presence",
+    "config.xenyria_eem.discord.rp.tooltip": "When enabled your current activity on the Xenyria Server gets shared on Discord.",
+    "config.xenyria_eem.discord.details": "Share game mode info",
+    "config.xenyria_eem.discord.details.tooltip": "When enabled stats from your current game get shared on Discord. 'Rich Presence' has to be enabled for this to work.",
+    "config_category.xenyria_eem.paintsquad.title": "PaintSquad",
+    "config.xenyria_eem.paintsquad.swim_cam": "Automatically adjust camera",
+    "config.xenyria_eem.paintsquad.swim_cam.tooltip": "When enabled your camera automatically switches into third-person view when entering the swim form.",
+    "config.xenyria_eem.paintsquad.shooting": "Improved weapon use detection",
+    "config.xenyria_eem.paintsquad.shooting.tooltip": "Greatly reduces shoot-detection delay for chargers and other weapons."
 }

@@ -6,7 +6,9 @@
   "mixins": [
   ],
   "client": [
-    "InitMixin"
+    "InitMixin",
+    "PaintSquadSwimFormMixin",
+    "DisconnectMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -3,6 +3,13 @@ package net.xenyria.eem.networking;
 import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.util.Identifier;
+import net.xenyria.eem.EXenyriaServerType;
+import net.xenyria.eem.PlayingSessionInformation;
+import net.xenyria.eem.config.screen.XenyriaConfigManager;
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.minecraft.util.Identifier;
+import org.json.JSONObject;
 
 import java.nio.charset.StandardCharsets;
 import java.util.logging.Logger;
@@ -38,8 +45,33 @@ public class PacketListener {
                     }
 
                     // Do something with the received data
-                    if(packet.getPacketType() == XenyriaServerPacket.EPacketType.RP) {
+                    if (packet.getPacketType() == XenyriaServerPacket.EPacketType.RP) {
+                        // If rich presence is disabled in the settings we ignore this packet
+                        if (!XenyriaConfigManager.getConfig().enableDiscordRichPresence) {
+                            return;
+                        }
                         DiscordRichPresenceIntegration.setLastReceivedRichPresence(packet.getData());
+                    } else if (packet.getPacketType() == XenyriaServerPacket.EPacketType.HANDSHAKE_INIT) {
+                        // Orion sends one mod handshake packet on login
+                        // This packet contains the current server ID
+                        String instanceId = packet.getData().getString("server_id");
+                        PlayingSessionInformation.setServerInstanceId(instanceId);
+                        PlayingSessionInformation.setOnNetwork(true);
+                        PlayingSessionInformation.setCurrentServerType(
+                                EXenyriaServerType.determineServerType(instanceId)
+                        );
+
+                        // We respond back so that the server knows we're using XEEM
+                        XenyriaServerPacket responsePacket = new XenyriaServerPacket(
+                                XenyriaServerPacket.EPacketType.HANDSHAKE_RESPONSE,
+                                new JSONObject()
+                        );
+                        responsePacket.sendToServer();
+                        LOGGER.info("Successfully completed handshake with Orion");
+                    } else if (packet.getPacketType() == XenyriaServerPacket.EPacketType.DEBUG) {
+                        LOGGER.info("Current network state: " + PlayingSessionInformation.isOnNetwork());
+                        LOGGER.info("Current server type: " + PlayingSessionInformation.getCurrentServerType());
+                        LOGGER.info("Current server id: " + PlayingSessionInformation.getServerInstanceId());
                     }
                 }
         );
