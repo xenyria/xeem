@@ -2,7 +2,6 @@ package net.xenyria.eem.mixin;
 
 import net.xenyria.eem.networking.PacketListener;
 import net.xenyria.eem.config.screen.XenyriaConfigManager;
-import net.xenyria.eem.networking.PacketListener;
 import net.xenyria.eem.paintsquad.PaintSquadInputManager;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

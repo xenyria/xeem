@@ -6,9 +6,6 @@ import net.minecraft.util.Identifier;
 import net.xenyria.eem.EXenyriaServerType;
 import net.xenyria.eem.PlayingSessionInformation;
 import net.xenyria.eem.config.screen.XenyriaConfigManager;
-import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
-import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
-import net.minecraft.util.Identifier;
 import org.json.JSONObject;
 
 import java.nio.charset.StandardCharsets;

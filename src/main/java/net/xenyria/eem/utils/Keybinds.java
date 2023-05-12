@@ -5,12 +5,8 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.network.packet.c2s.play.CommandExecutionC2SPacket;
-import net.minecraft.text.Text;
 import net.xenyria.eem.PlayingSessionInformation;
 import org.lwjgl.glfw.GLFW;
-
-import java.time.Instant;
 
 public class Keybinds {
     private static final KeyBinding Achievements = KeyBindingHelper.registerKeyBinding(new KeyBinding(
