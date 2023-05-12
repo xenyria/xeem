@@ -1,4 +1,4 @@
-package de.xenyria.eem.discord.activity;
+package net.xenyria.eem.discord.activity;
 
 public interface IDiscordActivityAccess {
 

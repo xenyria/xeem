@@ -18,7 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "de.xenyria.eem.XenyriaExperienceEnhancementMod"
+      "net.xenyria.eem.XenyriaExperienceEnhancementMod"
+    ],
+    "modmenu": [
+      "net.xenyria.eem.config.screen.XenyriaConfigScreen"
     ]
   },
   "mixins": [
@@ -28,5 +31,17 @@
     "fabricloader": ">=0.12.12",
     "minecraft": "1.19.4",
     "java": ">=11"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/xenyria"
+      },
+      "badges": [],
+      "update_checker": false
+    }
   }
 }

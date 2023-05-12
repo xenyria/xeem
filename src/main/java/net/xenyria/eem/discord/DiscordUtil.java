@@ -1,4 +1,4 @@
-package de.xenyria.eem.discord;
+package net.xenyria.eem.discord;
 
 import org.apache.commons.lang3.SystemUtils;
 

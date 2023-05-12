@@ -1,7 +1,6 @@
-package de.xenyria.eem;
+package net.xenyria.eem;
 
-import de.xenyria.eem.discord.DiscordRichPresenceIntegration;
-import net.fabricmc.api.ClientModInitializer;
+import net.xenyria.eem.discord.DiscordRichPresenceIntegration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +15,6 @@ public class XenyriaExperienceEnhancementMod implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		LOGGER.info("Xenyria Mod has been initialized.");
-
 		try {
 			LOGGER.info("Attempting to initialize Discord Integration...");
 			DiscordRichPresenceIntegration.createInstance();

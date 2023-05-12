@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "de.xenyria.eem.mixin",
+  "package": "net.xenyria.eem.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "InitMixin"
+    "InitMixin",
+    "PaintSquadSwimFormMixin",
+    "DisconnectMixin"
   ],
   "injectors": {
     "defaultRequire": 1
