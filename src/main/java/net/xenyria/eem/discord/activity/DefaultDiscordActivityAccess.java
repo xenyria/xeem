@@ -5,6 +5,7 @@ import de.jcm.discordgamesdk.CreateParams;
 import de.jcm.discordgamesdk.activity.Activity;
 import de.jcm.discordgamesdk.activity.ActivityType;
 import net.xenyria.eem.discord.DiscordUtil;
+import org.checkerframework.checker.units.qual.C;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,6 +48,7 @@ public class DefaultDiscordActivityAccess implements IDiscordActivityAccess {
     }
 
     private Core coreInstance;
+    private CreateParams params;
 
     @Override
     public synchronized void start(long applicationId) {
@@ -54,10 +56,30 @@ public class DefaultDiscordActivityAccess implements IDiscordActivityAccess {
         if(coreInstance != null) stop();
 
         // Initialize the core
-        try(CreateParams params = new CreateParams()) {
+        params = new CreateParams();
+        try {
             params.setClientID(applicationId);
             params.setFlags(CreateParams.getDefaultFlags());
             coreInstance = new Core(params);
+        } catch (Exception e) {
+            try {
+                if(params != null) {
+                    params.close();
+                    params = null;
+                }
+            } catch (Exception e1) {
+                LOGGER.error("Couldn't close create params, this is really bad and probably an issue with the underlying library: "
+                        + e1.getMessage());
+            }
+            try {
+                if(coreInstance != null) {
+                    coreInstance.close();
+                    coreInstance = null;
+                }
+            } catch (Exception e1) {
+                LOGGER.error("Couldn't close core instance after initialization failed"
+                        + e1.getMessage());
+            }
         }
     }
 
@@ -65,8 +87,21 @@ public class DefaultDiscordActivityAccess implements IDiscordActivityAccess {
     public synchronized void stop() {
         // Clean up
         if(coreInstance == null) return;
-        coreInstance.close();
-        coreInstance = null;
+        try {
+             coreInstance.close();
+        } catch (Exception e) {
+            LOGGER.error("Couldn't close core instance: " + e.getMessage());
+        } finally {
+            coreInstance = null;
+        }
+
+        try {
+            params.close();
+        } catch (Exception e) {
+            LOGGER.error("Couldn't close create params: " + e.getMessage());
+        } finally {
+            params = null;
+        }
     }
 
     @Override
@@ -91,12 +126,18 @@ public class DefaultDiscordActivityAccess implements IDiscordActivityAccess {
             activity.assets().setLargeText(largeImageText);
             activity.setType(ActivityType.PLAYING);
             coreInstance.activityManager().updateActivity(activity);
+        } catch (Exception e) {
+            LOGGER.error("Couldn't update activity: " + e.getMessage());
         }
     }
 
     @Override
     public synchronized void runCallbacks() {
         if(coreInstance == null) return;
-        coreInstance.runCallbacks();
+        try {
+            coreInstance.runCallbacks();
+        } catch (Exception e) {
+            LOGGER.error("Couldn't run callbacks: " + e.getMessage());
+        }
     }
 }
