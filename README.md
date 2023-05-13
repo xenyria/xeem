@@ -2,6 +2,7 @@
 
 <div align="center">
 
+<a href="https://modrinth.com/mod/xeem"><img alt="Available on Modrinth" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
 <img alt="Available for Fabric" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
 <a href="https://discord.gg/xenyria"><img alt="Chat with us on Discord" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a>
 <img alt="Requires Fabric API" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/requires/fabric-api_vector.svg">
@@ -21,14 +22,19 @@ You can join our Server on `play.xenyria.net`.
 - Keybinds for quickly accessing stats, ping and more.
 - *More to come in the near future*
 
-All features can be configured by via Mod Menu & cloth-config.
+All features can be configured in-game via Mod Menu & Cloth Config.
+
+## Required Mods
+
+- [Cloth Config](https://modrinth.com/mod/cloth-config)
+- [Mod Menu](https://modrinth.com/mod/cloth-config)
 
 ## Acknowledgements
 
 - [Fabric](https://fabricmc.net/)
 - [JCM's discord-game-sdk4j](https://github.com/JnCrMx/discord-game-sdk4j)
 - [TerraformersMC's ModMenu](https://github.com/TerraformersMC/ModMenu)
-- [shedaniel's cloth-config](https://github.com/shedaniel/cloth-config)
+- [shedaniel's Cloth Config](https://github.com/shedaniel/cloth-config)
 
 ## Contributing
 
