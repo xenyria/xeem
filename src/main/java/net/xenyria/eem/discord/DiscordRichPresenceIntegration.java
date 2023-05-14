@@ -136,6 +136,8 @@ public class DiscordRichPresenceIntegration {
                             largeImageId,
                             largeImageText);
                 } else {
+                    // The application ID has to be reset here so the core gets started up again once we receive data again
+                    lastApplicationID = 0;
                     discordActivityAccess.stop();
                 }
                 // Run callbacks
