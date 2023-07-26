@@ -95,7 +95,7 @@ public class DiscordUtil {
                 // Check if it's the file we are searching for...
                 try {
                     if (currentZipEntry.getName().equals(targetFileName)) {
-                        if (!output.getParentFile().mkdirs())
+                        if (!output.getParentFile().exists() && !output.getParentFile().mkdirs())
                             throw new IOException("Folder could not be created.");
                         // Copy to the system disk
                         Files.copy(zipInputStream, output.toPath(), StandardCopyOption.REPLACE_EXISTING);
